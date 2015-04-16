@@ -1,0 +1,35 @@
+/*
+  CORRELATION ENGINE
+  main.css
+
+  Version: Alpha 1.0
+  Author: Norman Gamage <norman.gamage@gmail.com>
+  Last Update: 17 Apr 2015
+*/
+
+body {
+  font: 12px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.grid path,
+.grid line {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.25);
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  /*display: none;*/
+}
+
+.line {
+  fill: none;
+  stroke-width: 2.5px;
+}

@@ -39,3 +39,7 @@ Steps:
     d) Reset database
 
         psql -U postgres -a -d CE -f c:\path\to\reset_db.sql &
+
+    e) [Optional] Populate database
+
+        psql -U postgres -a -d CE -f c:\path\to\test_data.sql &
