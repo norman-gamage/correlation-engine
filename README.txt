@@ -4,7 +4,7 @@
 
   Version: Alpha 1.0
   Author: Norman Gamage <norman.gamage@gmail.com>
-  Last Update: 17 Apr 2015
+  Last Update: 24 Apr 2015
 */
 
 Pre-requisites:
@@ -43,6 +43,18 @@ Steps:
 
     node server.js
 
-  6. Go to following link on a browser,
+  6. To view correlation trend graphs, go to following link on a web browser,
 
     http://localhost:3000
+
+  7. [Optional] To populate with simple trend data
+
+    a) Open following link on a web browser,
+
+      http://localhost:3000/send
+
+    b) Use the controls as required to generate data
+
+      Start/Pause: Begin/Pause data generation
+      Reset: Reset to data points
+      Trend: Switch between postive/negative trends
